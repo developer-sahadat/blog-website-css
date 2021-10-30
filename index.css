@@ -1,0 +1,162 @@
+/* For tablets: */
+@media only screen and (max-width: 1100px) {
+    html{
+        font-size: 55.5%;
+    }
+
+/*--------------------------------
+        Banner Section start
+----------------------------------*/
+
+.banner-section{
+    flex-direction: column;
+}
+.banner-section article{
+    width: 60%;
+    margin-bottom: 4rem;
+
+}
+
+.card-container{
+    width: 50%;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.blog-post{
+    width: 80%;
+}
+   
+  }
+
+
+  @media only screen and (max-width: 780px) {
+    html{
+        font-size: 48.5%;
+    }
+
+/*-----  Header Section Start Here ----*/
+
+    #blog-headerr{
+        flex-direction: column;
+    }
+
+   #menu li{
+        display: block;
+        margin: 0;
+        margin: 1.5rem 0rem;
+        text-align: center;
+    }
+    #meni-icon{
+        display: block;
+        margin-top: 1.7rem;
+    }
+    .hidden{
+        display: none;
+    }
+
+    /*--------------------------------
+        Banner Section start
+    ----------------------------------*/
+
+    .banner-section article{
+        width: 80%;
+  
+    
+    }
+
+    .card-container{
+        width: 80%;
+    }
+
+    
+    #archives{
+        min-height: auto;
+    }
+
+    .blog-post{
+        width: 80%;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    #contact-section{
+        min-height: auto;
+    }
+    
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    /*--------------------------------
+            Banner Section start
+    ----------------------------------*/    
+    .banner-section article{
+        width: 90%;
+        margin-bottom: 4rem;
+    }
+    .banner-section{
+       min-height: auto;
+    }
+
+    .banner-img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-container{
+        width: 95%;
+       
+    }
+
+    .blog-about{
+        display: flex;
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+      
+    }
+
+    .archives-lists{
+        flex-wrap: wrap;
+  
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arvhibes-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #contact-section{
+        width: 100%;
+    }
+    .form-control{
+        flex-direction: column;
+    }
+    .form-control label{
+        margin-bottom: 0.5rem;
+        
+    }
+    textarea{
+       padding: 5rem;
+       
+    }
+    .footer-section{
+        flex-direction: column;
+    }
+
+    .footer-text{
+        margin-bottom: 3rem;
+    }
+  
+
+}
+
+
+  

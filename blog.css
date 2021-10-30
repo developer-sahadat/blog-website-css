@@ -1,0 +1,383 @@
+/* reset code and common code starts here  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    background-color: #fafafa;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #fff;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.0rem 0.1rem #c4c4c4;
+    
+}
+
+.section-header{
+    font-size: 8rem;
+    font-family: 'Italianno', cursive;
+    text-align: center;
+
+}
+
+.but{
+    background-color: #E69F08;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.1rem #333;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 1rem 0rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.section-center {
+    padding: 5rem 1rem;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+/* reset code and common code ends here  */
+
+
+/*-----  Header Section Start Here ----*/
+#blog-headerr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 2rem 1rem;
+    color: white;
+    min-height: 5vh;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.logo-figure{
+    border: 1px solid white;
+}
+
+.logo-figure i{
+    font-size: 4rem;
+}
+
+#meni-icon{
+    display: none;
+}
+#menu li{
+    display: inline;
+    margin-right: 2rem;
+    transition: all 1s;
+    padding: 1rem;
+}
+
+#menu li:hover{
+    background-color: #1913D5;
+    border-radius: .8rem;
+}
+
+#menu li a{
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/*--------------------------------
+        Banner Section start
+----------------------------------*/
+.banner-section{
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.banner-section article{
+    flex-basis: 50%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.banner-section aside{
+    flex-basis: 50%;
+    margin: 1rem;
+}
+
+.banner-header{
+    background-color: black;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 4rem;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 1.8rem;
+}
+
+.banner-dis{
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.banner-img{
+    width: 60rem;
+    border-radius: 5px;
+}
+
+/*----------------------------------
+    About Me section Start here
+------------------------------------*/
+.blog-about{
+    padding: 5rem 1rem;
+    background-color: #4C4C4C;
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.blog-header{
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    flex: 1;
+    background-color: #A09D9D;
+    padding: 3rem 1rem;
+    margin: 2rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s;
+}
+
+.card:hover{
+    transform:scale(1.1);
+}
+
+.card-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card-dis{
+    font-size: 1.6rem;
+    padding: 0.6rem 0rem;
+    text-align: justify;
+    margin-bottom: 5rem;
+}
+
+.card-but{
+    align-self: center;
+    width: 80%;
+}
+
+/*-- Archives Start here--*/
+
+#archives{
+    padding: 5rem 1rem;
+    min-height: 95vh;
+}
+
+.arvhibes-img{
+    width: 100%;
+    height: 100%;
+    border-radius: .6rem;
+
+    transition: transform 1s;
+}
+
+.arvhibes-img:hover{
+transform: scale(1.2);
+}
+
+.container-archives{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    border-top: 0.1rem solid;
+    border-bottom: 0.1rem solid ;
+}
+
+.archives-lists{
+    display: flex;
+    text-align: center;
+}
+
+.archives-list{
+    margin: 2rem;
+}
+
+/*--Blog Post start here--*/
+.blog-post-hedding{
+margin-bottom: 5rem;
+}
+
+.blog-img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-post{
+    display: flex;
+    margin: 1rem 0rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0.0rem 0.1rem;
+    transition: transform 1s;
+    width: 70%;
+}
+
+.blog-post:hover{
+    transform: scale(1.1);
+}
+
+.blog-post aside{
+flex: 1;
+}
+
+.blog-post article{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.blog-hedding{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-sub{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.blog-dis{
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.but-blog{
+    width: 30%;
+}
+
+/*--Contact Section Start Here--*/
+#contact-section{
+    background-color: #4C4C4C;
+}
+
+.form-section{
+    padding:1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0.0rem 0.1rem #222;
+    margin: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.form-control{
+margin-bottom:1.5rem ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.form-control label{
+    font-size: 1.6rem;
+    flex: 0.3;
+}
+
+input, textarea{
+    flex: 0.7;
+    width: 40rem;
+    font-size: 1.6rem;
+    padding: 2rem 1rem;
+    border: none;
+    border-radius: 0.6rem;
+
+}
+textarea{
+    height: 12vh;
+    resize: none;
+}
+
+.contact-but{
+    width: 30%;
+}
+
+.sub-contact-but{
+display: flex;
+justify-content: flex-end;
+}
+
+.contac-header{
+    color: white;
+}
+
+/*--foooter Sectin Start Here--*/
+
+.footer-section{
+background-color: black;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 2rem;
+align-items: center;
+}
+
+.footer-text{
+    font-size: 1.5rem;
+}
+
+#footer-menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-menu ul li{
+    padding: 0rem 1.8rem;
+}
+
+.footer-link i{
+font-size: 2.8rem;
+color: white;
+transition: transform 1s;
+}
+
+.footer-link i:hover{
+    transform: scale(1.3);
+}
+
+
+
